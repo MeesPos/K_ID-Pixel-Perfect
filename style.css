@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gothic-Bold', 'Gothig-Regular', sans-serif;
+    src: url(/fonts/Gothic-Bold.ttf);
+    src: url(/fonts/Gothic-Regular.TTF);
+}
+
+.section{
+    height: 100vh;
+    text-align: center;
+}
+
+/* Fullpager navbar */
+#fp-nav ul li a span, .fp-slidesNav ul li a span{
+    background: white!important;
+}
+
+#fp-nav ul li .fp-tooltip{
+    display: none!important;
+}
+
+#fp-nav ul li a.active span, .fp-slidesNav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li:hover a.active span{
+    background: none!important;
+    border: 1px solid white;
+    margin-left: -7.5px;
+}
+
+/* Eerste section */
+#section1{
+    background-image: url(/img/backgrounds/section1.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+.section1__logo{
+    margin-bottom: 15px;
+}
+
+.section1__titel{
+    font-size: 40px;
+    color: white;
+}
+
+.section1__omschrijving{
+    margin-top: 15px;
+    animation: fadeIn ease-in-out 1.2s;
+
+}
+
+.section1__happy{
+    margin-top: 20px;
+    max-width: 300px;
+    animation: fadeIn ease-in-out 2.5s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    50% { opacity: 0; }
+    75% { opacity: .5; }
+    100% { opacity: 1; }
+}
+
+/* Tweede section */
+#section2{
+    background-image: url(/img/backgrounds/section2.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+.section2__titel{
+    color: white;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.section2__omschrijving{
+    color: #f3c81a;
+    margin-top: 20px;
+}
