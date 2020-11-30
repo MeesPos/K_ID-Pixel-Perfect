@@ -61,6 +61,45 @@
     100% { opacity: 1; }
 }
 
+.star1{
+    position: absolute;
+    top: 58vh;
+    left: 42vw;
+    opacity: 0;
+    animation-name: stars;
+    animation-duration: 1.2s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+
+.star2{
+    position: absolute;
+    right: 39vw;
+    top: 55vh;
+    opacity: 0;
+    animation-name: stars;
+    animation-duration: .9s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+
+.star3{
+    position: absolute;
+    left: 42.4vw;
+    top: 82vh;
+    opacity: 0;
+    animation-name: stars;
+    animation-duration: 1s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes stars {
+    0% { opacity: 0; }
+    30% { opacity: 1; }
+    80% { opacity: 0; }
+}
+
 /* Tweede section */
 #section2{
     background-image: url(/img/backgrounds/section2.png);
