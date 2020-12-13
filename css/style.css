@@ -1,0 +1,266 @@
+@font-face {
+    font-family: GothicBold;
+    src: url(/fonts/Gothic-Bold.ttf);
+}
+
+@font-face {
+    font-family: GothicRegular;
+    src: url(/fonts/Gothic-Regular.TTF);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: GothicBold, GothigRegular, sans-serif;
+}
+
+.section{
+    height: 100vh;
+    text-align: center;
+}
+
+/* Fullpager navbar */
+#fp-nav ul li a span, .fp-slidesNav ul li a span{
+    background: white!important;
+}
+
+#fp-nav ul li .fp-tooltip{
+    display: none!important;
+}
+
+#fp-nav ul li a.active span, .fp-slidesNav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li:hover a.active span{
+    background: none!important;
+    border: 1px solid white;
+    margin-left: -7.5px;
+}
+
+/* Eerste section */
+#section1{
+    background-image: url(/img/backgrounds/section1.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+.section1__logo{
+    margin-bottom: 15px;
+}
+
+.section1__titel{
+    font-size: 40px;
+    color: white;
+}
+
+.section1__omschrijving{
+    margin-top: 15px;
+    animation: fadeIn ease-in-out 1.2s;
+
+}
+
+.section1__happy{
+    margin-top: 20px;
+    max-width: 300px;
+    animation: fadeIn ease-in-out 2.5s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    50% { opacity: 0; }
+    75% { opacity: .5; }
+    100% { opacity: 1; }
+}
+
+.star1{
+    position: absolute;
+    top: 58vh;
+    left: 42vw;
+    opacity: 0;
+    animation-name: stars;
+    animation-duration: 1.2s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+
+.star2{
+    position: absolute;
+    right: 39vw;
+    top: 55vh;
+    opacity: 0;
+    animation-name: stars;
+    animation-duration: .9s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+
+.star3{
+    position: absolute;
+    left: 42.4vw;
+    top: 82vh;
+    opacity: 0;
+    animation-name: stars;
+    animation-duration: 1s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes stars {
+    0% { opacity: 0; }
+    30% { opacity: 1; }
+    80% { opacity: 0; }
+}
+
+/* Tweede section */
+#section2{
+    background-image: url(/img/backgrounds/section2.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+.section2__titel{
+    color: white;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.section2__omschrijving{
+    color: #f3c81a;
+    margin-top: 20px;
+}
+
+.section2__slots{
+    position: relative;
+    z-index: 999!important;
+}
+
+.spirites{
+    position: absolute;
+    top: 5.4vh;
+    left: 41.5vw;
+}
+
+.spirite-big{
+    position: relative;
+    animation-name: bigflare;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    z-index: 999;
+    opacity: 0;
+}
+
+.spirite-mid{
+    position: absolute;
+    left: -.3vw;
+    top: -.3vh;
+    z-index: 0;
+    animation-name: bigflare;
+    animation-delay: .4s;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    opacity: 0;
+}
+
+.spirite-small{
+    position: absolute;
+    top: 1vh;
+    left: -.1vw;
+    animation-name: bigflare;
+    animation-delay: .7s;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    opacity: 0;
+}
+
+@keyframes bigflare {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+.birds{
+    position: absolute;
+    left: 60vw;
+    top: 10vh;
+}
+
+.bird1{
+    position: relative;
+    animation-name: bird1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    z-index: 999;
+}
+
+.bird2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    animation-name: bird2;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    z-index: 998;
+    opacity: 0;
+}
+
+.bird3{
+    position: absolute;
+    left: 0;
+    top: 0;
+    animation-name: bird3;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    z-index: 997;
+    opacity: 0;
+}
+
+.bird4{
+    position: absolute;
+    left: 0;
+    top: 0;
+    animation-name: bird4;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    z-index: 996;
+    opacity: 0;
+}
+
+@keyframes bird1{
+    0% { opacity: 1; }
+    25% { opacity: 1; }
+    26% { opacity: 0; }
+    50% { opacity: 0; }
+    51% { opacity: 0; }
+    75% { opacity: 0; }
+    76% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@keyframes bird2{
+    0% { opacity: 0; }
+    25% { opacity: 0; }
+    26% { opacity: 1; }
+    50% { opacity: 1; }
+    51% { opacity: 0; }
+    75% { opacity: 0; }
+    76% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@keyframes bird3{
+    0% { opacity: 0; }
+    25% { opacity: 0; }
+    26% { opacity: 0; }
+    50% { opacity: 0; }
+    51% { opacity: 1; }
+    75% { opacity: 1; }
+    76% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@keyframes bird4{
+    0% { opacity: 0; }
+    25% { opacity: 0; }
+    26% { opacity: 0; }
+    50% { opacity: 0; }
+    51% { opacity: 0; }
+    75% { opacity: 0; }
+    76% { opacity: 1; }
+    100% { opacity: 1; }
+}
