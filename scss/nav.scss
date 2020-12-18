@@ -1,0 +1,13 @@
+#fp-nav ul li a span, .fp-slidesNav ul li a span{
+    background: white!important;
+}
+
+#fp-nav ul li .fp-tooltip{
+    display: none!important;
+}
+
+#fp-nav ul li a.active span, .fp-slidesNav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li:hover a.active span{
+    background: none!important;
+    border: 1px solid white;
+    margin-left: -7.5px;
+}

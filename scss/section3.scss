@@ -1,0 +1,81 @@
+#section3{
+    background-image: url(/img/backgrounds/section3.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+.cafe-img img{
+    margin: 50px;
+}
+
+.liter-koffie{
+    font-size: 55px;
+    font-family: GothicBold;
+}
+
+.voorkeur-desc{
+    font-size: 22px;
+    font-family: GothicRegular;
+}
+
+.counts{
+}
+
+@property --num {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+}
+  
+.count1 {
+    animation: counter 1s ease;
+    counter-set: num var(--num);
+    font: 800 40px system-ui;
+    padding: 2rem;
+    --num: 90;
+    position: absolute;
+    top: 53vh;
+    left: 33vw;
+    font-size: 80px;
+    font-family: Baskerville;
+    &::after {
+        content: counter(num);
+    }
+}
+
+@keyframes counter {
+    from {
+      --num: 0;
+    }
+
+    to {
+      --num: 90;
+    }
+}
+
+.count2 {
+    animation: counter2 1s ease;
+    counter-set: num var(--num);
+    font: 800 40px system-ui;
+    padding: 2rem;
+    font-family: Baskerville;
+    --num: 94;
+    position: absolute;
+    top: 53vh;
+    left: 59vw;
+    font-size: 80px;
+    font-family: Baskerville;
+    &::after {
+        content: counter(num);
+    }
+}
+
+@keyframes counter2 {
+    from {
+      --num: 0;
+    }
+
+    to {
+      --num: 94;
+    }
+}
