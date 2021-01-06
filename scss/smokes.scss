@@ -1,0 +1,545 @@
+// Left smokes
+
+.smoke1{
+    position: absolute;
+    left: 37vw;
+    top: 10vh;
+    animation-name: smoke1;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.smoke2{
+    position: absolute;
+    left: 37vw;
+    top: 10vh;
+    animation-name: smoke2;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.smoke3{
+    position: absolute;
+    left: 37vw;
+    top: 10vh;
+    animation-name: smoke3;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.smoke4{
+    position: absolute;
+    left: 37vw;
+    top: 10vh;
+    animation-name: smoke4;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.smoke5{
+    position: absolute;
+    left: 37vw;
+    top: 10vh;
+    animation-name: smoke5;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.smoke6{
+    position: absolute;
+    left: 37vw;
+    top: 10vh;
+    animation-name: smoke6;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.smoke7{
+    position: absolute;
+    left: 37vw;
+    top: 10vh;
+    animation-name: smoke7;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.smoke8{
+    position: absolute;
+    left: 37vw;
+    top: 10vh;
+    animation-name: smoke8;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.smoke9{
+    position: absolute;
+    left: 37vw;
+    top: 10vh;
+    animation-name: smoke9;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.smoke10{
+    position: absolute;
+    left: 37vw;
+    top: 10vh;
+    animation-name: smoke10;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.smoke11{
+    position: absolute;
+    left: 37vw;
+    top: 10vh;
+    animation-name: smoke11;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.smoke12{
+    position: absolute;
+    left: 37vw;
+    top: 10vh;
+    animation-name: smoke12;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.smoke13{
+    position: absolute;
+    left: 37vw;
+    top: 10vh;
+    animation-name: smoke13;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.smoke14{
+    position: absolute;
+    left: 37vw;
+    top: 10vh;
+    animation-name: smoke14;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.smoke15{
+    position: absolute;
+    left: 37vw;
+    top: 10vh;
+    animation-name: smoke15;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.smoke16{
+    position: absolute;
+    left: 37vw;
+    top: 10vh;
+    animation-name: smoke16;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes smoke1 {
+    0%{ opacity: 1; }
+    1% { opacity: 1; }
+    5% { opacity: 1; }
+    6% { opacity: 0; }
+}
+
+@keyframes smoke2 {
+    0%{ opacity: 0; }
+    6% { opacity: 1; }
+    7% { opacity: 1; }
+    11% { opacity: 1; }
+    12% { opacity: 0; }
+}
+
+@keyframes smoke3 {
+    0%{ opacity: 0; }
+    12% { opacity: 1; }
+    13% { opacity: 1; }
+    17% { opacity: 1; }
+    18% { opacity: 0; }
+}
+
+@keyframes smoke4 {
+    0%{ opacity: 0; }
+    18% { opacity: 1; }
+    19% { opacity: 1; }
+    23% { opacity: 1; }
+    24% { opacity: 0; }
+}
+
+@keyframes smoke5 {
+    0%{ opacity: 0; }
+    24% { opacity: 1; }
+    25% { opacity: 1; }
+    29% { opacity: 1; }
+    30% { opacity: 0; }
+}
+
+@keyframes smoke6 {
+    0%{ opacity: 0; }
+    30% { opacity: 1; }
+    31% { opacity: 1; }
+    35% { opacity: 1; }
+    36% { opacity: 0; }
+}
+
+@keyframes smoke7 {
+    0%{ opacity: 0; }
+    36% { opacity: 1; }
+    37% { opacity: 1; }
+    41% { opacity: 1; }
+    42% { opacity: 0; }
+}
+
+@keyframes smoke8 {
+    0%{ opacity: 0; }
+    42% { opacity: 1; }
+    43% { opacity: 1; }
+    49% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+@keyframes smoke9 {
+    0% { opacity: 0; }
+    48% { opacity: 1; }
+    49% { opacity: 1; }
+    53% { opacity: 1; }
+    54% { opacity: 0; }
+}
+
+@keyframes smoke10 {
+    0% { opacity: 0; }
+    54% { opacity: 1; }
+    55% { opacity: 1; }
+    59% { opacity: 1; }
+    60% { opacity: 0; }
+}
+
+@keyframes smoke11 {
+    0% { opacity: 0; }
+    60% { opacity: 1; }
+    61% { opacity: 1; }
+    65% { opacity: 1; }
+    66% { opacity: 0; }
+}
+
+@keyframes smoke12 {
+    0% { opacity: 0; }
+    66% { opacity: 1; }
+    67% { opacity: 1; }
+    71% { opacity: 1; }
+    72% { opacity: 0; }
+}
+
+@keyframes smoke13 {
+    0% { opacity: 0; }
+    72% { opacity: 1; }
+    73% { opacity: 1; }
+    77% { opacity: 1; }
+    78% { opacity: 0; }
+}
+
+@keyframes smoke14 {
+    0% { opacity: 0; }
+    78% { opacity: 1; }
+    79% { opacity: 1; }
+    83% { opacity: 1; }
+    84% { opacity: 0; }
+}
+
+@keyframes smoke15 {
+    0% { opacity: 0; }
+    84% { opacity: 1; }
+    85% { opacity: 1; }
+    89% { opacity: 1; }
+    90% { opacity: 0; }
+}
+
+@keyframes smoke16{
+    0% { opacity: 0; }
+    90% { opacity: 1; }
+    91% { opacity: 1; }
+    99% { opacity: 1; }
+    100% { opacity: 1; }
+}
+
+// Right smokes
+
+.rsmoke1{
+    position: absolute;
+    left: 57vw;
+    top: 5vh;
+    // animation-name: smoke1;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.rsmoke2{
+    position: absolute;
+    left: 57vw;
+    top: 5vh;
+    animation-name: smoke2;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.rsmoke3{
+    position: absolute;
+    left: 57vw;
+    top: 5vh;
+    animation-name: smoke3;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.rsmoke4{
+    position: absolute;
+    left: 57vw;
+    top: 5vh;
+    animation-name: smoke4;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.rsmoke5{
+    position: absolute;
+    left: 57vw;
+    top: 5vh;
+    animation-name: smoke5;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.rsmoke6{
+    position: absolute;
+    left: 57vw;
+    top: 5vh;
+    animation-name: smoke6;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.rsmoke7{
+    position: absolute;
+    left: 57vw;
+    top: 5vh;
+    animation-name: smoke7;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.rsmoke8{
+    position: absolute;
+    left: 57vw;
+    top: 5vh;
+    animation-name: smoke8;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.rsmoke9{
+    position: absolute;
+    left: 57vw;
+    top: 5vh;
+    animation-name: smoke9;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.rsmoke10{
+    position: absolute;
+    left: 57vw;
+    top: 5vh;
+    animation-name: smoke10;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.rsmoke11{
+    position: absolute;
+    left: 57vw;
+    top: 5vh;
+    animation-name: smoke11;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.rsmoke12{
+    position: absolute;
+    left: 57vw;
+    top: 5vh;
+    animation-name: smoke12;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.rsmoke13{
+    position: absolute;
+    left: 57vw;
+    top: 5vh;
+    animation-name: smoke13;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.rsmoke14{
+    position: absolute;
+    left: 57vw;
+    top: 5vh;
+    animation-name: smoke14;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.rsmoke15{
+    position: absolute;
+    left: 57vw;
+    top: 5vh;
+    animation-name: smoke15;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.rsmoke16{
+    position: absolute;
+    left: 57vw;
+    top: 5vh;
+    animation-name: smoke16;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes smoke1 {
+    0%{ opacity: 1; }
+    1% { opacity: 1; }
+    5% { opacity: 1; }
+    6% { opacity: 0; }
+}
+
+@keyframes smoke2 {
+    0%{ opacity: 0; }
+    6% { opacity: 1; }
+    7% { opacity: 1; }
+    11% { opacity: 1; }
+    12% { opacity: 0; }
+}
+
+@keyframes smoke3 {
+    0%{ opacity: 0; }
+    12% { opacity: 1; }
+    13% { opacity: 1; }
+    17% { opacity: 1; }
+    18% { opacity: 0; }
+}
+
+@keyframes smoke4 {
+    0%{ opacity: 0; }
+    18% { opacity: 1; }
+    19% { opacity: 1; }
+    23% { opacity: 1; }
+    24% { opacity: 0; }
+}
+
+@keyframes smoke5 {
+    0%{ opacity: 0; }
+    24% { opacity: 1; }
+    25% { opacity: 1; }
+    29% { opacity: 1; }
+    30% { opacity: 0; }
+}
+
+@keyframes smoke6 {
+    0%{ opacity: 0; }
+    30% { opacity: 1; }
+    31% { opacity: 1; }
+    35% { opacity: 1; }
+    36% { opacity: 0; }
+}
+
+@keyframes smoke7 {
+    0%{ opacity: 0; }
+    36% { opacity: 1; }
+    37% { opacity: 1; }
+    41% { opacity: 1; }
+    42% { opacity: 0; }
+}
+
+@keyframes smoke8 {
+    0%{ opacity: 0; }
+    42% { opacity: 1; }
+    43% { opacity: 1; }
+    49% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+@keyframes smoke9 {
+    0% { opacity: 0; }
+    48% { opacity: 1; }
+    49% { opacity: 1; }
+    53% { opacity: 1; }
+    54% { opacity: 0; }
+}
+
+@keyframes smoke10 {
+    0% { opacity: 0; }
+    54% { opacity: 1; }
+    55% { opacity: 1; }
+    59% { opacity: 1; }
+    60% { opacity: 0; }
+}
+
+@keyframes smoke11 {
+    0% { opacity: 0; }
+    60% { opacity: 1; }
+    61% { opacity: 1; }
+    65% { opacity: 1; }
+    66% { opacity: 0; }
+}
+
+@keyframes smoke12 {
+    0% { opacity: 0; }
+    66% { opacity: 1; }
+    67% { opacity: 1; }
+    71% { opacity: 1; }
+    72% { opacity: 0; }
+}
+
+@keyframes smoke13 {
+    0% { opacity: 0; }
+    72% { opacity: 1; }
+    73% { opacity: 1; }
+    77% { opacity: 1; }
+    78% { opacity: 0; }
+}
+
+@keyframes smoke14 {
+    0% { opacity: 0; }
+    78% { opacity: 1; }
+    79% { opacity: 1; }
+    83% { opacity: 1; }
+    84% { opacity: 0; }
+}
+
+@keyframes smoke15 {
+    0% { opacity: 0; }
+    84% { opacity: 1; }
+    85% { opacity: 1; }
+    89% { opacity: 1; }
+    90% { opacity: 0; }
+}
+
+@keyframes smoke16{
+    0% { opacity: 0; }
+    90% { opacity: 1; }
+    91% { opacity: 1; }
+    99% { opacity: 1; }
+    100% { opacity: 1; }
+}

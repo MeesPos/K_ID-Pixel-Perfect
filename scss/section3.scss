@@ -11,14 +11,13 @@
 .liter-koffie{
     font-size: 55px;
     font-family: GothicBold;
+    animation: fadeIn ease-in-out 1.2s;
 }
 
 .voorkeur-desc{
     font-size: 22px;
     font-family: GothicRegular;
-}
-
-.counts{
+    animation: fadeIn ease-in-out 2.5s;
 }
 
 @property --num {
