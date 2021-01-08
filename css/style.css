@@ -1,14 +1,14 @@
 @font-face {
   font-family: GothicBold;
-  src: url(/fonts/Gothic-Bold.ttf);
+  src: url(../fonts/Gothic-Bold.ttf);
 }
 @font-face {
   font-family: GothicRegular;
-  src: url(/fonts/Gothic-Regular.TTF);
+  src: url(../fonts/Gothic-Regular.TTF);
 }
 @font-face {
   font-family: Baskerville;
-  src: url(/fonts/Baskerville.otf);
+  src: url(../fonts/Baskerville.otf);
 }
 * {
   margin: 0;
@@ -36,7 +36,7 @@
 }
 
 #section1 {
-  background-image: url(/img/backgrounds/section1.png);
+  background-image: url(../img/backgrounds/section1.png);
   background-repeat: no-repeat;
   background-size: 100vw 100vh;
 }
@@ -120,7 +120,7 @@
   }
 }
 #section2 {
-  background-image: url(/img/backgrounds/section2.png);
+  background-image: url(../img/backgrounds/section2.png);
   background-repeat: no-repeat;
   background-size: 100vw 100vh;
 }
@@ -339,7 +339,7 @@
   }
 }
 #section3 {
-  background-image: url(/img/backgrounds/section3.png);
+  background-image: url(../img/backgrounds/section3.png);
   background-repeat: no-repeat;
   background-size: 100vw 100vh;
 }
@@ -416,7 +416,7 @@
 }
 @font-face {
   font-family: SlotFont;
-  src: url(/fonts/Slot-Font.ttf);
+  src: url(../fonts/Slot-Font.ttf);
 }
 .odometer {
   font-size: 70px !important;
